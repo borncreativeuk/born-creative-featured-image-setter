@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin name: Born Creative Featured Image Setter
-	Plugin URI: https://github.com/borncreativeuk/borncreative-featured-image-setter
+	Plugin URI: https://github.com/borncreativeuk/born-creative-featured-image-setter
 	Description: plugin to set a featured image on all posts without
 	Author: Born Creative
 	Author URI: https://www.born-creative.co.uk/

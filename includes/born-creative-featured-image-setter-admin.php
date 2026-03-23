@@ -16,7 +16,6 @@ function borncreative_featured_image_setter_admin_stuff()
 			'dashicons-admin-generic',
 			2
 		);
-
 	}
 
 	// Create a sub-menu under the top-level menu
@@ -53,7 +52,7 @@ add_action('admin_post_borncreative_featured_image_setter_form_response', 'bornc
 function borncreative_featured_image_setter_admin_save_stuff()
 {
 	$url = admin_url('admin.php?page=set-featured-images');
-	if (!empty($_POST['_wpnonce']) && wp_verify_nonce($_POST['_wpnonce'], 'borncreative-featured-image-setter-form-nonce')) {
+	if (!empty($_POST['_wpnonce']) && wp_verify_nonce($_POST['_wpnonce'], 'born-creative-featured-image-setter-form-nonce')) {
 		// sanitize the input
 		$image_id = absint($_REQUEST['image_id']);
 		// do the processing
@@ -63,8 +62,8 @@ function borncreative_featured_image_setter_admin_save_stuff()
 		exit();
 	} else {
 		wp_die(
-			__('Invalid nonce specified', 'borncreative-featured-image-setter'),
-			__('Error', 'borncreative-featured-image-setter'),
+			__('Invalid nonce specified', 'born-creative-featured-image-setter'),
+			__('Error', 'born-creative-featured-image-setter'),
 			array(
 				'response'     => 403,
 				'back_link' => $url,
