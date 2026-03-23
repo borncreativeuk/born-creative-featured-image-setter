@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin name: Born Creative Featured Image Setter
-	Plugin URI: https://github.com/borncreativeuk/jonathansblog-featured-image-setter
+	Plugin URI: https://github.com/borncreativeuk/borncreative-featured-image-setter
 	Description: plugin to set a featured image on all posts without
 	Author: Born Creative
 	Author URI: https://www.born-creative.co.uk/
@@ -25,11 +25,11 @@
 if (!defined('ABSPATH')) exit; // Exit if accessed directly   
 
 // include admin page if present
-if ( file_exists( plugin_dir_path(__FILE__) . 'includes/born-creative-featured-image-setter-admin.php' ) ) {
+if (file_exists(plugin_dir_path(__FILE__) . 'includes/born-creative-featured-image-setter-admin.php')) {
 	require_once plugin_dir_path(__FILE__) . 'includes/born-creative-featured-image-setter-admin.php';
 }
 
 // helper functions
-if ( file_exists( plugin_dir_path(__FILE__) . 'includes/helper.php' ) ) {
+if (file_exists(plugin_dir_path(__FILE__) . 'includes/helper.php')) {
 	require_once plugin_dir_path(__FILE__) . 'includes/helper.php';
 }
