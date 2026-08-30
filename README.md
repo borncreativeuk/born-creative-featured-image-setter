@@ -33,6 +33,7 @@ Also includes a Duplicate Featured Images report, showing every featured image u
 = 1.1 =
 * Add category select / breakdown for posts without a featured image, so a single category can be updated at a time
 * Add Duplicate Featured Images report with per-category breakdown and a Replace action
+* Guard every function declaration so a leftover/duplicate copy of the plugin (e.g. from a manual update that didn't fully replace the old files) can't cause a "Cannot redeclare function" fatal error
 
 = 1.0 =
 misc updates - menu, etc
