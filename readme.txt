@@ -1,7 +1,7 @@
 === Born Creative Featured Image Setter ===
 Contributors: Born Creative
 Tags: Featured Image
-Stable tag: 1.0
+Stable tag: 1.1
 Tested up to: 6.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -12,10 +12,13 @@ Quickly set the featured image for all posts which dont have one
 Quickly set the featured image for all posts which dont have one
 
 1. Navigate to admin > Born Creative > Set Featured Images
+1. Optionally choose a single category from the dropdown to limit the update to that category, and see a per-category breakdown of posts missing a featured image
 1. Click the 'Select Image' button
 1. Click the 'Apply' button that shows once you have selected an image
 
 Enjoy a featured image on all your posts which were missing one.
+
+Also includes a Duplicate Featured Images report, showing every featured image used on more than one post along with a per-category breakdown, so you can replace the image for a single category at a time.
 
 == Installation ==
 
@@ -26,6 +29,10 @@ Enjoy a featured image on all your posts which were missing one.
 1. Click the 'Apply' button that shows once you have selected an image
 
 == Changelog ==
+
+= 1.1 =
+* Add category select / breakdown for posts without a featured image, so a single category can be updated at a time
+* Add Duplicate Featured Images report with per-category breakdown and a Replace action
 
 = 1.0 =
 misc updates - menu, etc
