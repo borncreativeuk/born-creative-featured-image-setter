@@ -5,7 +5,7 @@
 	Description: plugin to set a featured image on all posts without
 	Author: Born Creative
 	Author URI: https://www.born-creative.co.uk/
-	Version: 1.0
+	Version: 1.1
 	License: GPL v3 or later
 	License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
